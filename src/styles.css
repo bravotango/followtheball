@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+@import url('https://fonts.googleapis.com/css?family=Jomhuria|Lato|Mate+SC|Vollkorn+SC|Cormorant Unicase');
+
+.marketing-banner {background-color: #900000;padding: 4px 16px;color:#fff;}
+
+p{font-family:'Lato'}  /* place class="h2-margin-bottom" on containers containing h2 elements to add margins  */
+
+
+.cu{font-family: 'Cormorant Unicase', serif;}
+
+h1 { font-family: 'Vollkorn SC', serif; font-size: 46px;font-weight:normal; }     
+h2 { font-family:'Cormorant Unicase';font-size: 46px;margin-top: 5px;margin-bottom:5px;font-weight:normal;}  /* place class="h2-margin-bottom" on containers containing h2 elements to add margins  */
+h3 { font-family: 'Mate SC', serif; font-size: 46px;font-weight:normal; }   
+h4 { font-family: 'Jomhuria', serif; font-size: 46px;font-weight:normal; }   
+.fill-remaining-space {
+    /* This fills the remaining space, by using flexbox. 
+       Every toolbar row uses a flexbox row layout. */
+    flex: 1 1 auto;
+  }
